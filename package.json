@@ -1,0 +1,46 @@
+{
+  "name": "react-rollup-example",
+  "version": "0.1.0",
+  "description": "react application using rollup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "dev": "npm run clean && rollup -c ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trustyoo86/react-rollup-example.git"
+  },
+  "keywords": [
+    "react",
+    "javascript",
+    "rollup",
+    "webpack",
+    "es6",
+    "es2015"
+  ],
+  "author": "trustyoo86",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trustyoo86/react-rollup-example/issues"
+  },
+  "homepage": "https://github.com/trustyoo86/react-rollup-example#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "path": "^0.12.7",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.26.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-bundle-html": "^0.2.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-dev-server": "^0.4.3"
+  }
+}
